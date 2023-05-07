@@ -27,6 +27,3 @@ The program will display a message box to let you know that it is running. Once 
 
 If you would like to contribute to this project, please fork the repository and make your changes on a new branch. Once you have made your changes, submit a pull request to merge your branch into the main codebase.
 
-### License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
