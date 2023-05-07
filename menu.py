@@ -3,6 +3,15 @@ import tkinter as tk
 import main
 import tkinter.messagebox as messagebox
 
+"""
+This code is a simple graphical user interface (GUI) program that allows users to input parameters for scraping house listings from a real estate website, and saves the data to a CSV file. The program uses the tkinter library to create the GUI, and calls a function from a main module to perform the actual scraping.
+
+The user interface includes three input boxes for the number of pages to scrape, the URL of the website, and the name of the output CSV file. After inputting the required parameters and clicking the "Enter" button, a message box appears to inform the user that the program is running. Once the process is complete, the data is saved to a CSV file in the same directory as the main.py file.
+
+Overall, this program provides a simple and user-friendly way to scrape house listings from a real estate website and save the data to a file.
+
+"""
+
 root = tk.Tk()
 root.title('Pesquisa de Casas')
 root.geometry('400x400')
