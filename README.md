@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 To run the program, execute the `menu.py` file in your terminal. The program will open a GUI window where you can input the number of pages to scrape, the URL of the website, and the name of the output CSV file. Click the "Enter" button to start the scraping process.
 
-The program will display a message box to let you know that it is running. Once the process is complete, the program will save the data to a CSV file in the same directory as the `menu.py` file.
+The program will display a message box to let you know that it is running. Once the process is complete, the program will save the data to a CSV file in the same directory as the `main.py` file.
 
 ### Contributing
 
