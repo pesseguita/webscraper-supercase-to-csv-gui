@@ -3,9 +3,17 @@ import requests
 import pandas as pd
 
 
-# number_of_pages = int(input("Escolhe o numero de paginas: "))
-# url = input("Escolhe o URL (nao fazer copy-paste de '/pagina-<i>)': ")
-# file_name = input("Escolhe o nome do ficheiro: ")
+"""
+This is a Python code that scrapes data from the website "supercasa.pt" and collects information about houses available for sale.
+
+The code uses the BeautifulSoup library to extract information from HTML and requests to make HTTP requests to the website.
+
+The function get_houses takes three arguments: number_of_pages, url, and file_name. number_of_pages specifies the number of pages that the code should scrape. url specifies the URL of the website, excluding the page number. file_name specifies the name of the output file.
+
+The code iterates over each page specified by number_of_pages, and extracts information for each house listed on that page. The extracted information includes the house ID, title, price, number of bedrooms, area, location, and other features.
+
+Finally, the code stores the collected data in a Pandas DataFrame and saves it to a CSV file with the name specified by file_name.
+"""
 
 
 def get_houses(number_of_pages, url, file_name):
